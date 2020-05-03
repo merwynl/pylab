@@ -1,6 +1,5 @@
 import hou
 
-
 NODE = hou.pwd()
 NODE_TYPES = ['matnet', 'geo', 'bone', 'null']
 PREFIX = 'Spine'
