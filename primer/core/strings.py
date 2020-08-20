@@ -5,7 +5,7 @@
 # strings are used to represent text
 # by default it's unicode text in python 3 and ascii in python 2
 
-name = 'リムマウウイン'
+name = 'hiroyuki'
 language = "日本語"
 place = """日本"""
 
@@ -33,7 +33,7 @@ feeling =  "がかっこいい"
 full = f"{phrase}{feeling}"
 print(full)
 
-phrase = " Reol is the best "
+phrase = " Apple is tasty"
 # Makes a string entirely upper case
 print(phrase.upper())
 
@@ -59,13 +59,13 @@ print(phrase.rstrip())
 print(phrase.find("be"))
 
 # Replaces the index of the first given character or sequence of characters in the string
-print(phrase.replace("best", "greatest"))
+print(phrase.replace("tasty", "healthy"))
 
 # Finds the given character or sequences of characters in a given string. Returns a boole value
-print("Reol" in phrase)
+print("Apple" in phrase)
 
 # Returns a boole value whether the supplied character or sequence of characters exists inside a given  string
-print("Reol" not in phrase)
+print("Apple" not in phrase)
 
 # Returns a boole if a string is entirely in the upper case or not
 print(phrase.isupper())
